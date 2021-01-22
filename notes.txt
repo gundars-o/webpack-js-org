@@ -46,3 +46,9 @@ If a webpack.config.js is present, the webpack command picks it up by default. W
 git add .
 git commit -m "Configuration file created."
 git push
+
+branch main
+npm run build
+git add .
+git commit -m "NPM script added."
+git push
