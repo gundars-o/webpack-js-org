@@ -4,3 +4,10 @@ git commit -m "Repository created"
 git branch -M main
 git remote add origin https://github.com/gundars-o/webpack-js-org.git
 git push -u origin main
+
+branch main
+npm init -y
+npm install webpack webpack-cli --save-dev
+git add .
+git commit -m "Webpack installed"
+git push
