@@ -18,3 +18,8 @@ To prevent an accidental publish of your code:
 git add .
 git commit -m "Directory structure creation started. src folder created."
 git push
+
+branch main
+git add .
+git commit -m "Directory structure creation continued. dist folder created."
+git push
