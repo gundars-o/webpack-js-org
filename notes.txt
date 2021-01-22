@@ -11,3 +11,10 @@ npm install webpack webpack-cli --save-dev
 git add .
 git commit -m "Webpack installed"
 git push
+
+branch main
+To prevent an accidental publish of your code:
+    "private": true
+git add .
+git commit -m "Directory structure creation started. src folder created."
+git push
