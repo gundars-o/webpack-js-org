@@ -37,3 +37,12 @@ npx webpack
 git add .
 git commit -m "Webpack launched. main.js produced."
 git push
+
+branch main
+npx webpack --config webpack.config.js
+    or
+npx webpack
+If a webpack.config.js is present, the webpack command picks it up by default. We use the --config option here only to show that you can pass a configuration of any name. This will be useful for more complex configurations that need to be split into multiple files.
+git add .
+git commit -m "Configuration file created."
+git push
