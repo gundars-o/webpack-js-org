@@ -23,3 +23,11 @@ branch main
 git add .
 git commit -m "Directory structure creation continued. dist folder created."
 git push
+
+branch main
+npm install --save lodash
+http://127.0.0.1:5500/dist/index.html
+    > Cannot use import statement outside a module index.js:1
+git add .
+git commit -m "Lodash installed."
+git push
